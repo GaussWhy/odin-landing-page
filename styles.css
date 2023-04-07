@@ -7,6 +7,7 @@ body {
 .header {
     display: flex;
     background-color: #1f2937;
+    justify-content: space-between;
 }
 
 a {
@@ -21,6 +22,7 @@ ul {
 .header-logo {
     color: #F9FAF8;
     font-size: 24px;
+    padding: 10px;
 }
 
 .footer {
@@ -31,4 +33,40 @@ ul {
     color: #e5e7eb;
     padding: 20px;
     margin-top: auto; 
+}
+
+.header-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.below-header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+}
+
+.hero-main {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+img {
+    height: 250px;
+    width: 450px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px; /* Makes the buttons have rounded corners */
 }
