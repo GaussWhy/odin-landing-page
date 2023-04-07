@@ -60,13 +60,19 @@ ul {
     font-size: 18px;
 }
 
+
 img {
     height: 250px;
     width: 450px;
+    align-self: flex-end;
 }
 
 button {
     background-color: #3882F6;
     color: white;
     border-radius: 8px; /* Makes the buttons have rounded corners */
+}
+
+.top-button {
+    align-self: flex-start; /* Un-stretches the button so it doesn't fill up the whole row */
 }
