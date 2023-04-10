@@ -126,7 +126,7 @@ button {
     font-size: 36px;
     color: #1f2937;
     font-style: italic;
-    font-weight: 200;
+    font-weight: lighter;
     width: 500px; 
     margin-top: 50px;
    
@@ -138,3 +138,23 @@ button {
     width: 500px;
     margin-bottom: 50px;
 }
+
+/* Section Four */
+
+.section-four {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    width: 1000px;
+    height: 300px;
+    border-radius: 8px;  
+}
+
+.bottom-button {
+    border: 1px solid white;
+    padding: 5px 20px;
+    
+}
+
