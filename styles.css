@@ -87,3 +87,10 @@ button {
 
 /* Section Two */
 
+.flower-title {
+    text-align: center;
+}
+
+.section-two {
+    display: flex;
+}
