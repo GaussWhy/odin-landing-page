@@ -23,6 +23,7 @@ ul {
     color: #F9FAF8;
     font-size: 24px;
     padding: 10px;
+    margin-left: 30px;
 }
 
 .footer {
@@ -39,7 +40,7 @@ ul {
     display: flex;
     justify-content: flex-end;
     gap: 15px;
-    margin: 10px;
+    margin: 10px 30px;
     padding: 10px;
 }
 
@@ -47,6 +48,11 @@ ul {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
+    
+}
+
+.hero-main, .hero-text, .top-button {
+    margin-left: 30px; /* Lining up left margin with "Header Logo" */
 }
 
 .hero-main {
@@ -65,6 +71,8 @@ img {
     height: 250px;
     width: 450px;
     align-self: flex-end;
+    margin-right: 50px;
+    margin-bottom: 50px;
 }
 
 button {
@@ -76,3 +84,6 @@ button {
 .top-button {
     align-self: flex-start; /* Un-stretches the button so it doesn't fill up the whole row */
 }
+
+/* Section Two */
+
