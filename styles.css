@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-family: Roboto, sans-serif;
 }
 
 .header {
@@ -96,7 +97,6 @@ button {
     display: flex;
     margin-bottom: 100px;
     justify-content: space-evenly;
- 
 }
 
 .img-test {
@@ -110,4 +110,31 @@ button {
 .text-test {
     text-align: center;
     overflow-wrap: break-word;
+}
+
+/* Section Three */
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 200;
+    width: 500px; 
+    margin-top: 50px;
+   
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: bold;
+    width: 500px;
+    margin-bottom: 50px;
 }
