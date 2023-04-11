@@ -48,8 +48,7 @@ ul {
 .below-header {
     display: flex;
     flex-direction: column;
-    background-color: #1f2937;
-    
+    background-color: #1f2937;    
 }
 
 .hero-main, .hero-text, .top-button {
@@ -85,6 +84,9 @@ button {
 
 .top-button {
     align-self: flex-start; /* Un-stretches the button so it doesn't fill up the whole row */
+    border: 1px solid #3882F6;
+    margin-top: 10px;
+    padding: 5px 20px;
 }
 
 /* Section Two */
