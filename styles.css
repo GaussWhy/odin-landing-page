@@ -24,7 +24,7 @@ ul {
     color: #F9FAF8;
     font-size: 24px;
     padding: 10px;
-    margin-left: 30px;
+    margin-left: 30px; 
 }
 
 .footer {
@@ -47,12 +47,13 @@ ul {
 
 .below-header {
     display: flex;
-    flex-direction: column;
     background-color: #1f2937;    
+    justify-content: space-between;
 }
 
-.hero-main, .hero-text, .top-button {
-    margin-left: 30px; /* Lining up left margin with "Header Logo" */
+
+.let-me-see {
+   margin: 30px 40px;
 }
 
 .hero-main {
@@ -71,9 +72,9 @@ ul {
 .main-img {
     height: 250px;
     width: 450px; 
-    align-self: flex-end;
-    margin-right: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-bottom: 100px; 
 }
 
 button {
